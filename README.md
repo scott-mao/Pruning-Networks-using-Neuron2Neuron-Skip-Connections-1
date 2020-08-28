@@ -17,9 +17,11 @@ learnable weights. A formal representation of N2NSkip connections is illustrated
 where the proposed N2NSkip connections can be visualized as sparse convolutional
 layers, as opposed to ResNet-like skip connections.
 
+
 <p align="center">
-  <img align="center" src="images/skip_compa.jpg" width=550" height="300" alt="Responsive image">
-</p>
+        <img src="images/1a.png" class="img-fluid" width="350" height="300" alt="Responsive image"> 
+        <img src="images/1b.png" class="img-fluid" width="350" height="300" alt="Responsive image">
+ </p>
 
 # Analyzing Connectivity in Pruned Deep Neural Networks through Heat Diffusion
 We propose a heat diffusion-based connectivity measure to compare the overall con-
