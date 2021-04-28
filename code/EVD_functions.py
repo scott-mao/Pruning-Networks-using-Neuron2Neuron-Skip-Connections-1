@@ -3,7 +3,7 @@ import torch
 import torchvision
 import torch.nn as nn
 from adj_matrix import adj_matrix, adj_matrix_weighted
-from models.layers.expandergraphlayer import ExpanderLinear, ExpanderConv2d
+from models.layers.expandergraphlayer import *
 from train import validation_conv
 import time
 #from Random import RandomLinear,RandomConv2d
