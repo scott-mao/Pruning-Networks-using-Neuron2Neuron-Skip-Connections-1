@@ -23,18 +23,4 @@ layers, as opposed to ResNet-like skip connections.
         <img src="images/1b.png" class="img-fluid" width="350" height="300" alt="Responsive image">
  </p>
 
-# Analyzing Connectivity in Pruned Deep Neural Networks through Heat Diffusion
-We propose a heat diffusion-based connectivity measure to compare the overall con-
-nectivity of pruned networks with respect to the reference network. Considering each network as
-an acyclic undirected graph, we construct an n × n adjacency matrix, where n is the total number of
-neurons in the MLP.
-
-<p align="center">
-  <img align="center" src="images/fig3.png" width="700" height="200" alt="Responsive image">
-</p>
-
-We empirically demonstrate that N2NSkip connections significantly lower performance
-degradation as compared to conventional skip connections, resulting in consistently
-superior test performance at high compression ratios.
-
 The code for our paper is currently "under construction". We will post the link to our paper as soon as it is published online. Stay tuned for updates!
